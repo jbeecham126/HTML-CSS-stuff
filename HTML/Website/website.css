@@ -1,0 +1,61 @@
+body{
+    background-color: #e6e6e6;
+}
+
+.title{
+    color: #191970;
+    font-family: "Arial", Helvetica, san-serif;
+    font-size: 140%;
+    text-align: center;
+}
+
+.icon-bar{
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a{
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: #FFFFFF;
+    font-size: 36px;
+    text-decoration: none;
+    font-family: "Arial", Helvetica, san-serif;
+}
+
+.icon-bar a:hover{
+    background-color: #000000;
+}
+
+.active{
+    background-color: #191970;
+}
+
+.ghana-beach img{
+    width: 980px;
+    margin-top: 30px;
+    
+    border-radius: 50px;
+    filter: saturate(130%);
+    border: 5px solid #191970;
+}
+
+.ghana-beach h2{
+    text-align: center;
+    font-family: "Arial", Helvetica, san-serif;
+    color: #191970;
+    font-size: 160%;
+}
+
+.paragraph{
+    font-family: "Arial", Helvetica, san-serif;
+    font-size: 18px;
+    text-align: justify;
+    border: 3px solid #191970;
+    padding: 0 12px;
+    margin: 20px 0;
+}
