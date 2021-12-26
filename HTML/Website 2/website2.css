@@ -133,14 +133,17 @@ html{
 }
 
 @keyframes textanim{
-    25%{
-        content: "A High Schooler";
+    20%{
+        content: "A Programmer";
     }
-    50%{
+    40%{
         content: "A Volleyball Player";
     }
-    75%{
-        content: "A Programmer";
+    60%{
+        content: "A Makeup Artist";
+    }
+    80%{
+        content: "A Badass";
     }
 }
 
@@ -239,7 +242,8 @@ section{
 }
 
 .about-text h3 span:nth-child(1):after,
-.about-text h3 span:nth-child(2):after{
+.about-text h3 span:nth-child(2):after,
+.about-text h3 span:nth-child(3):after{
     content: "";
     width: 6px;
     height: 6px;
@@ -301,12 +305,12 @@ section{
     width: 60%;
 }
 
-.js:after{
-    width: 20%;
+.ba:after{
+    width: 100%;
 }
 
-.c++:after{
-    width: 30%;
+.makeup::after{
+    width: 60%;
 }
 
 .vb:after{
